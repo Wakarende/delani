@@ -96,4 +96,13 @@ img {
     height: 15rem;
     display: flexbox;
     justify-content: center;
+    box-sizing: border-box;
+}
+.img-ft {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer p {
+    text-transform: uppercase;
 }
