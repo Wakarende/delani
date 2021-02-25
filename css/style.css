@@ -57,3 +57,17 @@ img {
     text-transform: uppercase;
     font-weight: 400;
 }
+.portfolio {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.portfolio h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.card-img-top {
+    margin: 0;
+}
+.card {
+    margin-top: 60px;
+}
