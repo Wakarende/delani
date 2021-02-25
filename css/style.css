@@ -46,3 +46,14 @@ img {
 .services p{
     line-height: 3rem;
 }
+.row {
+    display: flexbox;
+    justify-content: space-evenly;
+}
+.what-we-do {
+    margin-top: 80px;
+}
+.what-we-do h2, h5{
+    text-transform: uppercase;
+    font-weight: 400;
+}
