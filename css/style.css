@@ -33,15 +33,12 @@ img {
     line-height: 3rem;
 }
 .services{
-    margin-top: 200px;
+    margin-top:80px;
     background-image: url(../img/backgrounds/services.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto;
-    padding: 90px;
-
-
-    
+    padding: 90px;  
 }
 .services h2{
     text-transform: uppercase;
