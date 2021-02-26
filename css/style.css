@@ -128,11 +128,13 @@ img {
 .content-hidden3 {
     display: none;
     padding-top: 10px;
+}
 
-    
+.card-img {
+    margin: 0
 }
 /*portfolio hover*/
 .card-body {
-    text-align ;
+    text-align 
     opacity: 0.5;
 }
