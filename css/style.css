@@ -135,6 +135,13 @@ img {
 }
 /*portfolio hover*/
 .card-body {
-    text-align 
     opacity: 0.5;
+}
+.card-title {
+    border: 3px solid white;
+    margin-top: 20px;
+    height: 7em;
+    padding-top: 30px;
+    background:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7));
+    text-transform: uppercase;
 }
