@@ -4,10 +4,9 @@ $(document).ready(function() {
         $("#content-show1").toggle();
         $(".content-hidden1").toggle();
         $(".content-hidden1").click(function() {
-            $("#content-show1").show();
-            $(".content-hidden1").hide();
+            // $("#content-show1").show();
+            // $(".content-hidden1").hide();
         });
-        // 
     });
     $(".click2").click(function() {
         $("#content-show2").toggle();
@@ -28,6 +27,59 @@ $(document).ready(function() {
         // $("#content-show3").hide();
     });
 // portfolio hover
-let portfolio = []
+
+   
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  let cardTotal = (
+//         $(".card").toArray().length
+//     );
+//     for(let cardNumber = 1; cardNumber <= cardTotal; cardNumber ++) {
+//         $("#portfolio1 $(cardNumber)").hover(function() {
+//             $('#portfolio1 $(cardNumber)> .card-body').show();
+//         })
+//     }
+//    $("#showing").hover( {
+     
+//    })
