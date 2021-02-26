@@ -54,13 +54,15 @@ img {
     margin-top: 80px;
     cursor: pointer;
 }
-.what-we-do h2, h5{
+.what-we-do h2{
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .what-we-do h5{
+    text-transform: uppercase;
     font-weight: bold;
-    margin-top: 60px;
+
 }
 .portfolio {
     margin-top: 80px;
