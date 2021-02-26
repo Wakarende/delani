@@ -6,18 +6,18 @@ $(document).ready(function() {
         $(".content-hidden1").click(function() {
             $("#content-show1").show();
             $(".content-hidden1").hide();
-        })
+        });
         // 
-    })
+    });
     $(".click2").click(function() {
         $("#content-show2").toggle();
         $(".content-hidden2").toggle();
         $(".content-hidden2").click(function() {
             $("#content-show2").show();
             $(".content-hidden2").hide();
-        })
+        });
         // $("#content-show2").hide();
-    })
+    });
     $(".click3").click(function() {
         $("#content-show3").toggle();
         $(".content-hidden3").toggle();
@@ -26,5 +26,8 @@ $(document).ready(function() {
             $(".content-hidden3").hide();
         })
         // $("#content-show3").hide();
-    })
+    });
+// portfolio hover
+let portfolio = []
 });
+
