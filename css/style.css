@@ -52,6 +52,7 @@ img {
 }
 .what-we-do {
     margin-top: 80px;
+    cursor: pointer;
 }
 .what-we-do h2, h5{
     text-transform: uppercase;
