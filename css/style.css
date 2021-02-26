@@ -116,16 +116,23 @@ img {
 /* what we do toggle */
 .content-hidden1 {
     display: none;
+    padding-top: 10px;
    
 }
 .content-hidden2 {
     display: none;
+    padding-top: 10px;
+
     
 }
 .content-hidden3 {
     display: none;
+    padding-top: 10px;
+
     
 }
+/*portfolio hover*/
 .card-body {
-    display: none;
+    text-align ;
+    opacity: 0.5;
 }

@@ -14,14 +14,14 @@ $(document).ready(function() {
     });
 // portfolio hover
 
-    $(".card").hover(
-        function(){
-            $(".card-body").slideDown();
-        },
-     function(){
-         $(".card-body").slideUp();
-     }
-    );
+    // $(".card").hover(
+    //     function(){
+    //         $(".card-body").slideDown();
+    //     },
+    //  function(){
+    //      $(".card-body").slideUp();
+    //  }
+    // );
    
 });
 
