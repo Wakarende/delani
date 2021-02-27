@@ -114,12 +114,12 @@ img {
     text-transform: uppercase;
 }
 /* what we do toggle */
-.content-hidden {
+.content-hidden1 {
     display: none;
     padding-top: 10px;
    
 }
-/* .content-hidden2 {
+.content-hidden2 {
     display: none;
     padding-top: 10px;
 
@@ -128,7 +128,7 @@ img {
 .content-hidden3 {
     display: none;
     padding-top: 10px;
-} */
+}
 
 
 /*portfolio hover*/
