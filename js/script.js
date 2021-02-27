@@ -21,4 +21,13 @@ $(document).ready(function() {
      }
     )
 
+    //contact input
+    let name = document.getElementById.("#inputName").value;
+let email = document.getElementById.("#inputEmail").value;
+let textArea = document.getElementById.("#text-area").value;
+
+function getInput() {
+  let name = document.getElementById.("#inputName").value;
+  alert("Dear $("name") we have received your message");
+};
 });
