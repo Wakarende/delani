@@ -114,12 +114,12 @@ img {
     text-transform: uppercase;
 }
 /* what we do toggle */
-.content-hidden1 {
+.content-hidden {
     display: none;
     padding-top: 10px;
    
 }
-.content-hidden2 {
+/* .content-hidden2 {
     display: none;
     padding-top: 10px;
 
@@ -128,20 +128,26 @@ img {
 .content-hidden3 {
     display: none;
     padding-top: 10px;
-}
+} */
 
-.card-img {
-    margin: 0
-}
+
 /*portfolio hover*/
-.card-body {
-    opacity: 0.5;
+.card{
+    cursor: pointer;
 }
 .card-title {
     border: 3px solid white;
-    margin-top: 20px;
+    margin-bottom: 40px;
     height: 7em;
-    padding-top: 30px;
+    
     background:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7));
     text-transform: uppercase;
+    cursor: pointer;
+    display: none;
+}
+.card-img {
+    margin: 0
+}
+.card-img-overlay {
+    display: none;
 }
