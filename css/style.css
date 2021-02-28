@@ -32,15 +32,17 @@
 .mouse {
     margin-top: 50px;
 }
+/* About  */
 .about h2 {
     text-transform: uppercase;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .about p {
     line-height: 3rem;
 }
+/* services  */
 .services{
-    margin-top:80px;
+    margin-top:50px;
     background-image: url(../img/backgrounds/services.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -57,8 +59,9 @@
     display: flexbox;
     justify-content: space-evenly;
 }
+/* What we do  */
 .what-we-do {
-    margin-top: 80px;
+    margin-top: 50px;
     cursor: pointer;
 }
 .what-we-do h2{
@@ -71,20 +74,21 @@
     font-weight: bold;
 
 }
+/* portfolio */
 .portfolio {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .portfolio h2{
     text-transform: uppercase;
-    margin-bottom: 30px;
 }
 .card-img-top {
     margin: 0;
 }
 .card {
-    margin-top: 40px;
+    margin-top: 20px;
 }
+/* contact  */
 #mc_embed_signup
 {background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 
@@ -98,8 +102,7 @@
 .contact-title{
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    
+    color: white;   
 }
 .mc-field-group{
     color: white;
@@ -119,10 +122,12 @@
     text-align: center;
      background: none;  
 }
+/* footer */
 .img-ft {
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 50px;
 }
 .footer p {
     text-transform: uppercase;
@@ -136,9 +141,7 @@
 }
 .content-hidden2 {
     display: none;
-    padding-top: 10px;
-
-    
+    padding-top: 10px;   
 }
 .content-hidden3 {
     display: none;
@@ -148,16 +151,6 @@
 /*portfolio hover*/
 .card{
     cursor: pointer;
-}
-.card-title {
-    border: 3px solid white;
-    margin-bottom: 40px;
-    height: 7em;
-    
-    background:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7));
-    text-transform: uppercase;
-    cursor: pointer;
-    display: none;
 }
 .card-img {
     margin: 0

@@ -19,7 +19,7 @@ $(document).ready(function() {
      },function(){
         $(".card-img-overlay",this).slideUp();
      }
-    )
+    );
 
     // contact input
     const name = document.getElementById("mce-NAME");
