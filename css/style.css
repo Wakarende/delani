@@ -107,6 +107,37 @@ img {
 }
 #mc_embed_signup
 {background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+.validate{
+    background: url(../img/backgrounds/form.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.contact-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.mc-field-group{
+    color: white;
+}
+#mce-NAME{
+    background: none;
+}
+#mce-EMAIL{
+    background: none;
+
+}
+#mce-MESSAGE{
+    background: none;
+    height: 15rem;
+}
+#mc-embedded-subscribe{
+    border: 2px solid white;
+    background: none;
+}
 .img-ft {
     margin-bottom: 40px;
     margin-left: 10px;
