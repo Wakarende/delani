@@ -119,6 +119,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     color: white;
+    
 }
 .mc-field-group{
     color: white;
@@ -132,11 +133,11 @@ img {
 }
 #mce-MESSAGE{
     background: none;
-    height: 15rem;
+    
 }
-#mc-embedded-subscribe{
-    border: 2px solid white;
-    background: none;
+.clear{
+    text-align: center;
+     background: none;  
 }
 .img-ft {
     margin-bottom: 40px;
