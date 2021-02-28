@@ -1,13 +1,20 @@
 
-.page-header {
+/* landing page */
+.jumbotron{
     background-image: url(../img/backgrounds/landingpage.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    height: 80vh;
     width: 100%;
     background-position: center top;
     text-transform: uppercase;
-    padding-top: 10rem;
+    padding-top: 5rem;
     cursor: pointer;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.logo {
+    margin-bottom: 30px;
 }
 .page-header p {
     font-size: 14px;
@@ -15,15 +22,15 @@
 .page-header h1 {
     font-size: 50px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .page-header h2 {
     font-size: 50px;
     font-weight: 400;
     margin-top: 20px;
 }
-img {
-    margin-top: 70px;
+.mouse {
+    margin-top: 50px;
 }
 .about h2 {
     text-transform: uppercase;
@@ -37,7 +44,7 @@ img {
     background-image: url(../img/backgrounds/services.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: auto;
+    background-size: cover;
     padding:90px;  
 }
 .services h2{
@@ -77,33 +84,6 @@ img {
 }
 .card {
     margin-top: 40px;
-}
-.contact {
-    margin-top: 80px;
-    background-image: url(../img/backgrounds/form.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 90px;
-    color: white;
-}
-.form-control {
-    margin-top: 40px;
-    background: none;
-
-}
-.submit{
-    margin-top: 30px;
-    background: none;
-    border-radius: 3px;
-    border: 1px solid white;
-    color: white;
-}
-#text-area{
-    width: 40rem;
-    height: 15rem;
-    display: flexbox;
-    justify-content: center;
-    box-sizing: border-box;
 }
 #mc_embed_signup
 {background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
