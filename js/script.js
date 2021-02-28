@@ -22,10 +22,10 @@ $(document).ready(function() {
     )
 
     // contact input
-    const name = document.getElementById("inputName");
-    const email = document.getElementById("inputEmail");
-    const text = document.getElementById("message");
-    const form = document.getElementById("myForm")
+    const name = document.getElementById("mce-NAME");
+    const email = document.getElementById("mce-EMAIL");
+    const text = document.getElementById("mce-MESSAGE");
+    const form = document.getElementById("mc-embedded-subscribe-form")
 
     form.addEventListener('submit' ,(e) => {
         e.preventDefault()
