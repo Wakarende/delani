@@ -15,7 +15,7 @@ $(document).ready(function() {
     
     //portfolio hover
     $(".card").hover(function() {
-        $(".card-img-overlay",this).slideDown();
+        $(".card-img-overlay",this).fadeIn();
      },function(){
         $(".card-img-overlay",this).slideUp();
      }
