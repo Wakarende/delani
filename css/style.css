@@ -1,6 +1,16 @@
 * {
-    font-family: 'Karla';
+    font-family: 'Karla';   
+    text-align: center;
 }
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold
+}
+p {
+    line-height: 3rem;
+}
+
 /* landing page */
 .jumbotron{
     background-image: url(../img/backgrounds/landingpage.jpg);
@@ -36,30 +46,21 @@
 }
 /* About  */
 .about h2 {
-    text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 40px;
 }
-.about p {
-    line-height: 3rem;
-}
+
 /* services  */
 .services{
-    margin-top:50px;
+    margin-top:40px;
     background-image: url(../img/backgrounds/services.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    padding:90px;  
-}
-.services h2{
-    text-transform: uppercase;
-}
-.services p{
-    line-height: 3rem;
+    padding:80px;  
 }
 .row {
     display: flexbox;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 /* What we do  */
 .what-we-do {
@@ -67,8 +68,6 @@
     cursor: pointer;
 }
 .what-we-do h2{
-    text-transform: uppercase;
-    font-weight: 400;
     margin-bottom: 40px;
 }
 .what-we-do h5{
@@ -121,6 +120,7 @@
 }
 #mce-MESSAGE{
     background: none;
+    height: 100px;
     
 }
 .clear{
@@ -128,7 +128,7 @@
      background: none;  
 }
 /* footer */
-.img-ft {
+.img-ft{
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;

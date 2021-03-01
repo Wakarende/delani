@@ -1,16 +1,16 @@
 $(document).ready(function() {
     // what we do toggle
     $(".click1").click(function() {
-        $("#content-show1").slideToggle();
-        $(".content-hidden1").slideToggle();
+        $("#content-show1").toggle(500);
+        $(".content-hidden1").toggle(500);
     });
     $(".click2").click(function() {
-        $("#content-show2").slideToggle();
-        $(".content-hidden2").slideToggle();
+        $("#content-show2").toggle(500);
+        $(".content-hidden2").toggle(500);
     });
     $(".click3").click(function() {
-        $("#content-show3").slideToggle();
-        $(".content-hidden3").slideToggle();
+        $("#content-show3").toggle(500);
+        $(".content-hidden3").toggle(500);
     });
     
     //portfolio hover
