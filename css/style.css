@@ -123,10 +123,7 @@ p {
     height: 100px;
     
 }
-.clear{
-    text-align: center;
-     background: none;  
-}
+
 /* footer */
 .img-ft{
     margin-bottom: 40px;
@@ -164,7 +161,6 @@ p {
     display: none;
 }
 .card-img-overlay p {
-    
     border: 2px solid white;
     /* margin-bottom: 40px; */
     height: 100px;
