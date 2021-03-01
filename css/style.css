@@ -1,10 +1,12 @@
-
+* {
+    font-family: 'Karla';
+}
 /* landing page */
 .jumbotron{
     background-image: url(../img/backgrounds/landingpage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 65vh;
     width: 100%;
     background-position: center top;
     text-transform: uppercase;
@@ -17,20 +19,20 @@
     margin-bottom: 30px;
 }
 .page-header p {
-    font-size: 14px;
+    font-size: 16px;
 }
 .page-header h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .page-header h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     margin-top: 20px;
 }
 .mouse {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 /* About  */
 .about h2 {
@@ -98,6 +100,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 80px;
+    display: flexbox;
+    justify-content: center;
 }
 .contact-title{
     text-align: center;
@@ -109,6 +113,7 @@
 }
 #mce-NAME{
     background: none;
+    
 }
 #mce-EMAIL{
     background: none;
