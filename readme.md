@@ -10,10 +10,11 @@ Delani Studio is a practice website.
 
 ## Technologies Used
 
--HTML
--CSS
--JavaScript
--jQuery
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Boostrap
 
 ## Installation Setup
 
@@ -22,6 +23,12 @@ To acquire a local copy:
 - Clone the repository
 - Navigate to the parent folder Akan
 - Open the index.html file
+
+## Behaviour Driven Development
+
+- The images in the what we do section should toggle to a paragraph explaining about the services.
+- In the portfolio hovering over each image will show a text box with the headings for each image.
+- In the contact section, inputing your details will alert you with a confirmation message. The data will be sent to mailchimp. If none of the fields are filled the form will not submit.
 
 ## License
 
